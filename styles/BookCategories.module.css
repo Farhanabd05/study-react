@@ -1,0 +1,42 @@
+.container {
+    padding: 2rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.category {
+    margin-bottom: 2rem;
+}
+
+.category h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category li {
+    margin: 0.5rem 0;
+}
+
+.category a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.category a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.2rem 0 0.5rem;
+}

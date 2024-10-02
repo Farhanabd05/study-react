@@ -1,0 +1,15 @@
+/* styles/About.module.css */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.about h1 {
+    color: #0070f3
+}
+
+.about ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}

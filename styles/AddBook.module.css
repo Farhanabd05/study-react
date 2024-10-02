@@ -1,0 +1,27 @@
+/* styles/AddBook.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 00 auto;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0051bb;
+}
+

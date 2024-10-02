@@ -1,0 +1,32 @@
+/* styles/Book.module.css */
+.book {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.book h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.book p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.button:hover {
+    background-color: #0051bb;
+}

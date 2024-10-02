@@ -1,0 +1,44 @@
+/* styles/ReadLater.module.css */
+/* styles/ReadLater.module.css */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+        
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.title {
+    color: #0070f3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.removeButton {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}

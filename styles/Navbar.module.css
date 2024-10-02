@@ -1,0 +1,90 @@
+/* styles/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #2980b9;
+}
+
+.toggleButton {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
+
+.toggleButton span {
+    width: 30px;
+    height: 3px;
+    background: #ecf0f1;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+}
+
+.navItem {
+    margin: 0 1rem;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navItem:hover {
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .toggleButton {
+        display: flex;
+    }
+
+    .navItems {
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        background-color: #34495e;
+        height: 100vh;
+        width: 300px;
+        padding-top: 3.5rem;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+    }
+
+    .open {
+        transform: translateX(0);
+    }
+
+    .navItem {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+}
